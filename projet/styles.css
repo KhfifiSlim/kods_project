@@ -1,0 +1,185 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2EF;
+    color: #333;
+}
+
+.responsive-line {
+    content: '';
+    height: 5px;
+    width: 70%;
+    background: #EC9704;
+    border-radius: 5px;
+    margin: 2px 15%;
+    display: inline-block;
+}
+
+header {
+    background-color: none;
+    padding: 3.5em;
+    text-align: center;
+    color: #EC9704;
+}
+
+nav {
+    background-color: #9C4A1A;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    font-family: 'Jura', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(0, 0%, 96%);
+    margin: 0 1em;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #EC9704;
+    color: #fff;
+    border-radius: 7px;
+}
+
+/* Add a new rule for the specific link */
+nav a.special-link {
+    color: #F7C815; /* Your desired color */
+    font-weight: bold;
+    /* Add any additional styles as needed */
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+    background-color: #9C4A1A;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+}
+
+h2 {
+    color: #583E26;
+    font-family: cursive;
+    text-decoration : underline;
+    text-align:center;
+}
+h3 {
+    color: #EC9704;
+    font-family: cursive;
+    text-decoration : underline;
+    text-align:center;
+}
+h1 {
+    color: #583E26;
+    font-family: cursive;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+   
+}
+
+ul, ol {
+    font-size: 20px;
+    margin: 30px;
+    line-height: 2.5em;
+    text-align: justify;
+    color: #583E26;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+
+p {
+    position: relative;
+    color: black;
+    font-size: 23px;
+    line-height: 2em;
+    text-align: justify;
+    font-family: system-ui;
+}
+
+p:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -15px;
+    height: 100%;
+    width: 2px;
+    background-color: #EC9704;
+}
+
+.image-container {
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    border: 2px solid #EC9704;
+}
+
+.image-container2 {
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.image-container3 {
+    text-align: center; /* Optional: Center the images horizontally */
+}
+
+.image-container3 img {
+    display: inline-block;
+    border: 2px solid #EC9704;
+    margin: 5; /* Optional: Remove default margin for inline-block elements */
+}
+
+.video {
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    border: 2px solid #EC9704;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid;
+    margin: 0 auto; /* Center the table horizontally */
+}
+
+
+th, td {
+    padding: 8px;
+    border: 1px solid black;
+    text-align:center;
+    font-weight:bold;
+    line-height: 2em;
+    text-align: justify;
+}
+td{
+    text-align:left;
+
+}
+th {
+    background-color: #EC9704;
+    text-align:center;
+
+}
+
+
+audio {
+    width: 100%;
+    max-width: 400px; /* Ajustez la largeur maximale selon vos besoins */
+    margin: 20px auto; /* Ajout de marges pour centrer l'élément horizontalement */
+    display: block;
+}
+
+/* Reste du style inchangé */
+audio::-webkit-media-controls-panel {
+    background-color: #EC9704
+    ;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
